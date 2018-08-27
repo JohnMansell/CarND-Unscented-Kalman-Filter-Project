@@ -73,6 +73,11 @@ public:
   ///* NIS for Lidar
   double NIS_laser_;
 
+  int n_z = 2;
+
+
+
+
 
   /**
    * Constructor
@@ -111,6 +116,11 @@ public:
    * @param meas_package The measurement at k+1
    */
   void UpdateRadar(MeasurementPackage meas_package);
+
+  void NormalzeAngle(double &phi);
+
 };
+
+
 
 #endif /* UKF_H */
