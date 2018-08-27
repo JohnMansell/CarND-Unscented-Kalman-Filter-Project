@@ -67,6 +67,12 @@ public:
   ///* Sigma point spreading parameter
   double lambda_;
 
+  ///* NIS for Radar
+  double NIS_radar_;
+
+  ///* NIS for Lidar
+  double NIS_laser_;
+
 
   /**
    * Constructor
@@ -89,6 +95,9 @@ public:
    * matrix
    * @param delta_t Time between k and k+1 in s
    */
+
+  bool InitializeMeasurement(MeasurementPackage meas_package);
+
   void Prediction(double delta_t);
 
   /**
