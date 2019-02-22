@@ -1,5 +1,5 @@
 # Unscented Kalman Filter
-> [![UKF](WriteUp/UKF.gif)](https://youtu.be/aHv7-UUtn6A "Unscented Kalman Filter")
+> [![UKF](WriteUp/UKF.gif)](https://youtu.be/aHv7-UUtn6A "Unscented Kalman Filter")  
 > [Full Video](https://youtu.be/aHv7-UUtn6A) on YouTube
 
 # Objective
